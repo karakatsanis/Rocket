@@ -14,6 +14,7 @@
 		67F7E51D2338178A00E6DA4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F7E51B2338178A00E6DA4C /* LaunchScreen.storyboard */; };
 		67F7E5282338178A00E6DA4C /* RocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7E5272338178A00E6DA4C /* RocketTests.swift */; };
 		67F7E5332338178A00E6DA4C /* RocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7E5322338178A00E6DA4C /* RocketUITests.swift */; };
+		67F7E541233824CE00E6DA4C /* PushTrial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7E540233824CE00E6DA4C /* PushTrial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		67F7E52E2338178A00E6DA4C /* RocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F7E5322338178A00E6DA4C /* RocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketUITests.swift; sourceTree = "<group>"; };
 		67F7E5342338178A00E6DA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F7E540233824CE00E6DA4C /* PushTrial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTrial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		67F7E5062338178800E6DA4C = {
 			isa = PBXGroup;
 			children = (
+				67F7E540233824CE00E6DA4C /* PushTrial.swift */,
 				67F7E5112338178800E6DA4C /* Rocket */,
 				67F7E5262338178A00E6DA4C /* RocketTests */,
 				67F7E5312338178A00E6DA4C /* RocketUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F7E541233824CE00E6DA4C /* PushTrial.swift in Sources */,
 				67F7E5152338178800E6DA4C /* ViewController.swift in Sources */,
 				67F7E5132338178800E6DA4C /* AppDelegate.swift in Sources */,
 			);
