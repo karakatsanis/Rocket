@@ -14,7 +14,7 @@
 		67F7E51D2338178A00E6DA4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F7E51B2338178A00E6DA4C /* LaunchScreen.storyboard */; };
 		67F7E5282338178A00E6DA4C /* RocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7E5272338178A00E6DA4C /* RocketTests.swift */; };
 		67F7E5332338178A00E6DA4C /* RocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7E5322338178A00E6DA4C /* RocketUITests.swift */; };
-		67F7E541233824CE00E6DA4C /* PushTrial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7E540233824CE00E6DA4C /* PushTrial.swift */; };
+		67F7E5432338D36E00E6DA4C /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67F7E5422338D36E00E6DA4C /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		67F7E52E2338178A00E6DA4C /* RocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F7E5322338178A00E6DA4C /* RocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketUITests.swift; sourceTree = "<group>"; };
 		67F7E5342338178A00E6DA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67F7E540233824CE00E6DA4C /* PushTrial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTrial.swift; sourceTree = "<group>"; };
+		67F7E5422338D36E00E6DA4C /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		67F7E5062338178800E6DA4C = {
 			isa = PBXGroup;
 			children = (
-				67F7E540233824CE00E6DA4C /* PushTrial.swift */,
 				67F7E5112338178800E6DA4C /* Rocket */,
 				67F7E5262338178A00E6DA4C /* RocketTests */,
 				67F7E5312338178A00E6DA4C /* RocketUITests */,
@@ -103,6 +102,7 @@
 				67F7E5122338178800E6DA4C /* AppDelegate.swift */,
 				67F7E5142338178800E6DA4C /* ViewController.swift */,
 				67F7E5162338178800E6DA4C /* Main.storyboard */,
+				67F7E5422338D36E00E6DA4C /* hustle-on.wav */,
 				67F7E5192338178A00E6DA4C /* Assets.xcassets */,
 				67F7E51B2338178A00E6DA4C /* LaunchScreen.storyboard */,
 				67F7E51E2338178A00E6DA4C /* Info.plist */,
@@ -232,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F7E5432338D36E00E6DA4C /* hustle-on.wav in Resources */,
 				67F7E51D2338178A00E6DA4C /* LaunchScreen.storyboard in Resources */,
 				67F7E51A2338178A00E6DA4C /* Assets.xcassets in Resources */,
 				67F7E5182338178800E6DA4C /* Main.storyboard in Resources */,
@@ -259,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F7E541233824CE00E6DA4C /* PushTrial.swift in Sources */,
 				67F7E5152338178800E6DA4C /* ViewController.swift in Sources */,
 				67F7E5132338178800E6DA4C /* AppDelegate.swift in Sources */,
 			);
